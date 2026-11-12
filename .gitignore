@@ -1,0 +1,13 @@
+# Ignore everything by default
+*
+
+# Only these are tracked:
+!/.gitignore
+!/README.md
+!/*/
+!/*/*.py
+!/*/.env.example
+
+# Never track secrets or Python junk
+.env
+__pycache__/
